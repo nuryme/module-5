@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5</title>
+    <style>
+       .parent {
+        padding: 25px;
+        background-color: blanchedalmond;
+        display: flex;
+        gap: 30px;
+        /* margin: 5px auto; */
+        justify-content: center;
+        height: 200px;
+        align-items: stretch; /* by default thake */
+       }
+       /* .first {
+        flex-direction: column;
+       } */
+       .second {
+        justify-content: space-around;
+        background-color: aquamarine;
+        align-items: start;
+        flex-direction: row-reverse;
+       }
+       .third {
+        justify-content: space-evenly;
+        background-color: rgb(113, 0, 128);
+        align-items: center;
+       }
+       .fourth {
+        justify-content: space-between;
+        background-color: tomato;
+        align-items: end;
+       }
+       .child {
+        border: 2px solid rgba(15, 158, 160);
+        background-color: rgb(178, 228, 229);
+        padding: 20px;
+        font-size: 18px;
+        /* margin: 10px 10px; */
+        /* display: inline; */
+        /* width: 400px; */
+       }
+       .wrap {
+        align-items: center;
+        background-color: brown;
+        flex-wrap: wrap;
+       }
+    </style>
+</head>
+<body>
+    <section class="parent first">
+        <div class="child">child - 1</div>
+        <div class="child">child - 2</div>
+        <div class="child">child - 3</div>
+        <!-- <div class="child">child - 4</div>
+        <div class="child">child - 5</div>
+        <div class="child">child - 6</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quisquam animi eum aperiam dolores suscipit minima delectus aut nostrum aspernatur doloremque officia quae enim saepe tempore, necessitatibus provident. Suscipit saepe culpa adipisci aperiam quidem quod commodi illum! Rerum itaque voluptatibus in cupiditate est. Sapiente cumque voluptatem ipsa alias exercitationem quas?</p> -->
+    </section>
+    <section class="parent second">
+        <div class="child">child - 1</div>
+        <div class="child">child - 2</div>
+        <div class="child">child - 3</div>
+    </section>
+    <section class="parent third">
+        <div class="child">child - 1</div>
+        <div class="child">child - 2</div>
+        <div class="child">child - 3</div>
+    </section>
+    <section class="parent fourth">
+        <div class="child">child - 1</div>
+        <div class="child">child - 2</div>
+        <div class="child">child - 3</div>
+    </section>
+    <section class="parent wrap">
+        <div class="child">child - 1</div>
+        <div class="child">child - 2</div>
+        <div class="child">child - 3</div>
+        <div class="child">child - 4</div>
+        <div class="child">child - 5</div>
+        <div class="child">child - 6</div>
+        <div class="child">child - 7</div>
+        <div class="child">child - 8</div>
+        <div class="child">child - 9</div>
+        <div class="child">child - 10</div>
+        <div class="child">child - 11</div>
+        <div class="child">child - 12</div>
+        <div class="child">child - 13</div>
+        <div class="child">child - 14</div>
+        <div class="child">child - 15</div>
+        <div class="child">child - 16</div>
+        <div class="child">child - 17</div>
+        <div class="child">child - 18</div>
+        <div class="child">child - 19</div>
+        <div class="child">child - 20</div>
+    </section>
+</body>
+</html>
